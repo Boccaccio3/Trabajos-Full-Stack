@@ -1,0 +1,79 @@
+body{
+    background-color: #BC105C;
+    color: white;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px; ;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: -5px;
+}
+
+hr{
+    margin-top: none;
+    color: white;
+}
+
+img{
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+
+.controsa{
+    background-color: #BC105C;
+    color: white;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.divbutton{
+    text-align: left;
+}
+
+.hbutton{
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    background-color: #2C8F20;
+    padding-top: none;
+    color: white;
+    border-radius: 5px;
+    border-color: #2C8F20;
+    margin-bottom: 15px;
+    margin-right: 14px;
+}
+
+#volver{
+    background-color: red;
+    padding-top: none;
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}

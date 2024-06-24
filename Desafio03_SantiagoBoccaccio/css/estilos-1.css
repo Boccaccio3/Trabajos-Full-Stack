@@ -1,0 +1,94 @@
+body{
+    background-color:#E11364;
+}
+
+.fondo{
+    background-color: #BC105C;
+    color: white;
+    margin-top: none;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: white solid 5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.subfondo{
+    background-color: #BC105C;
+    color: white;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.subsubfondo{
+    background-color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.tj{
+    color: #9D0555;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    text-align: right;
+}
+
+hr{
+    margin-top: none;
+    color: #9D0555;
+    border-style: dotted;
+}
+
+img{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    color: #686052;
+    margin-bottom: none;
+}
+
+.divbutton{
+    text-align: center;
+}
+
+.hbutton{
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    background-color: #2C8F20;
+    padding-top: none;
+    color: white;
+    border-radius: 5px;
+    border-color: #2C8F20;
+    margin-bottom: 15px;
+}
+
+.final{
+    background-color: #E96093;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}

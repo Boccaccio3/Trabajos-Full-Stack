@@ -1,0 +1,147 @@
+#bodya{
+    background-color: #b29069;
+    margin-left: 12.5%;
+    width: 75%;
+    text-align: center;
+
+}
+
+.fondo{
+    background-color: #403E3E;
+    color: white ;
+    margin-top: none;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: black solid 5px;
+}
+
+.subfondo{
+    background-color: #403E3E;
+    color: white;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border:5px solid;
+    border-color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+.subsubfondo{
+    background-color: #7B7C84;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border:5px solid;
+    border-color: black;
+}
+
+.tj{
+    color: white;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    text-align: right;
+}
+
+.lmv{
+    text-align: center;
+    font-size: 40px;
+}
+
+hr{
+    margin-top: none;
+    color: #b29069;
+    border-style: dashed;
+}
+
+img{
+    width: 100%;
+    text-align: center;
+    border: 10px inset;
+    border-color: #b29069;
+}
+
+p{
+    color: #686052;
+    margin-bottom: none;
+    margin-left: 40px;
+    margin-right: 30px;
+
+}
+
+.divbutton{
+    text-align: center;
+}
+
+.hbutton{
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    background-color: #2C8F20;
+    padding-top: none;
+    color: white;
+    border-radius: 5px;
+    border-color: #2C8F20;
+    margin-bottom: 15px;
+}
+
+.final{
+    background-color: #b29069;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}
+
+body{
+    background-color: #b29069;
+}
+
+.imgjuegos{
+    text-align: left;
+    width: 45%;
+    height: 45%;
+    border: 5px white outset;
+}
+
+.maingame{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.buttongame{
+    margin-left: 40px;
+}
+#volver{
+    background-color: red;
+    border-color: red;
+}
+
+.hgame{
+    margin-left: 40px;
+    margin-bottom: -10px;
+}
+
+.pgame{
+    color: black;
+    margin-left: 0px;
+}

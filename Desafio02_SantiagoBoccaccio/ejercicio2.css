@@ -1,0 +1,84 @@
+.hprod{background-color: white;
+color: #698593;
+text-align: center;
+font-family: Impact, Charcoal, sans-serif;
+font-size: 50px;
+}
+
+.ha{color: #E6CBBD;
+font-family: Arial, Gadget, sans-serif;
+font-variant: small-caps;
+font-style: italic;
+font-size:30px;
+}
+
+.ima{border:5px solid;
+border-color:#E6CBBD;
+}
+
+.hc{color:#A1C1CB;
+font-family: Arial, Gadget, sans-serif;
+font-variant: small-caps;
+font-style: italic;
+font-size:30px;
+}
+
+.imc{border:5px solid;
+border-color:#A1C1CB;}
+
+.hconsol{color:#BCBDBF;
+font-family: Arial, Gadget, sans-serif;
+font-variant: small-caps;
+font-style: italic;
+font-size:30px;
+}
+
+
+.imconsol{border:5px solid;
+border-color:#BCBDBF;}
+
+.hht{color:#8D94A1;
+font-family: Arial, Gadget, sans-serif;
+font-variant: small-caps;
+font-style: italic;
+font-size:30px;
+}
+
+.imht{width: 500px;
+height: 146px;
+border:5px solid;
+border-color:#8D94A1;}
+
+.ht{color:#B2B2AA;
+font-family: Arial, Gadget, sans-serif;
+font-variant: small-caps;
+font-style: italic;
+font-size:30px;
+}
+
+.imt{border:5px solid;
+border-color:#B2B2AA;}
+
+p{font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+color: white;
+}
+
+
+
+/* Intento de configurar tamaños de pantalla
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+    body {
+    width: 100%; 
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+    width: 100%; 
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+    width: 60%;
+    }
+} */
