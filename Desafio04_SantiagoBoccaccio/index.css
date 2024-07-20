@@ -163,7 +163,7 @@ button:hover{
     padding: 20px;
     border: 2px solid rgb(254, 215, 155);
     border-radius: 8px;
-    background: linear-gradient(180deg,#fff, rgb(254, 215, 155))
+    background: linear-gradient(180deg, rgb(254, 215, 155), #fff)
 }
 
 .contenedor .title {
@@ -227,3 +227,17 @@ form .boton input:hover{
     background: linear-gradient(360deg,blanchedalmond, rgb(254, 215, 155))
 }
 
+hr{    
+    background-color: black;
+    height: 4px;
+    margin-top: -10px;
+}
+.tituloform{
+    text-align: center;
+}
+
+.detalle{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
