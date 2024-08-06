@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Alta</title>
+</head>
+<body>
+    <h1>Perfumeria Scentify</h1>
+    <header>
+    <nav class="barra">
+    <ul class="ulbarra">
+        <li><a class="abarra" href="../index.html">Masculino</a></li>
+        <li><a class="abarra" href="./femenino.html">Femenino</a></li>
+        <li><a class="abarra" href="">Sucursales</a></li>
+        <li><a class="abarra" href="./alta.html">Alta</a></li>
+        <li><a class="abarra" href="./contacto.html">Contacto</a></li>
+        <li><a class="abarra" href="./nosotros.html">Nosotros</a></li>
+    </ul>
+    </nav>
+    </header>
+    
+    <main>
+    <div class="alta">
+        <h2 class="h2form">Formulario de Alta de Productos</h2>
+        
+    <div class="datos">
+        <span class="detalles">Nombre</span><br>
+        <input class="formcont" type="text" placeholder="Ingrese el Nombre del Producto" required>
+    </div>
+
+    <div class="datos">
+        <span class="detalles">Precio</span><br>
+        <input class="formcont" type="number" placeholder="Ingrese el Precio" required>
+    </div>
+
+    
+    <div class="datos">
+        <span class="detalles">Stock</span><br>
+        <input class="formcont" type="number" placeholder="Ingrese Stock Disponible" required>
+    </div>
+
+    <div class="datos">
+        <span class="detalles">Marca</span><br>
+        <input class="formcont" type="text" placeholder="Ingrese la Marca" required>
+    </div>
+
+    <div class="datos">
+        <span class="detalles">Categoría</span><br>
+        <input class="formcont" type="text" placeholder="Ingrese la Categoría" required>
+    </div>
+
+    <div class="datos">
+        <span class="detalles">Edad Desde</span><br>
+        <input class="formcont" type="text" placeholder="Ingrese la Edad Desde" required>
+    </div>
+
+    <div class="datos">
+        <span class="detalles">Edad Hasta</span><br>
+        <input class="formcont" type="text" placeholder="Ingrese la Edad Hasta" required>
+    </div>
+
+    <div class="datos">
+    <form action="/ruta/del/servidor" method="post" enctype="multipart/form-data">
+        <span class="detalles">Selecciona una imagen:</span>
+        <input type="file" id="imagen" name="imagen" accept="image/*">
+        <button type="submit" class="botformim">Subir Imagen</button>
+    </form>
+    </div>
+
+
+    <textarea class="boxcoma" cols="10" rows="10" placeholder="Ingrese Descripción Corta"></textarea>
+    
+    <div class="divform"><button class="botform" type="submit">ENVIAR FORMULARIO</button></div> 
+    </div>
+
+
+
+    </main>
+    <div class="logowpp" style="background-color: transparent; border: none;">
+    <a href="https://wa.me/1234567890" target="_blank" title="Comunicate con nosotros en WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+    </a>
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <p>&copy; 1994 SCENTIFY WEB. TODOS LOS DERECHOS RESERVADOS.</p>
+            <p><a class="afooter" href="#">POLÍTICA DE PRIVACIDAD</a> |
+            <a class="afooter" href="#">TÉRMINOS DE SERVICIO</a> |
+            <a class="afooter" href="#">POLÍTICA DE COOKIS</a> | </p>
+            <br>
+            <pre style="text-align: center;">TELÉFONO: 152440-1870     EMAIL: SCENTIFY@GMAIL.COM</pre>         
+    </footer>
+
+</body>
+</html>

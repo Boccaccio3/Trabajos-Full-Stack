@@ -1,0 +1,268 @@
+body{
+    background: linear-gradient(360deg, grey, rgb(254, 215, 155));
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.ulbarra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-content: space-between;
+}
+
+.abarra{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 55px;
+}
+li a:hover{
+    color: rgb(121, 117, 117);
+    font-size: 1.6em;
+}
+
+img{
+    margin-top: 0px;
+    width: 350px;
+    height: 300px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+div{
+    background-color: white;
+    margin-top: 25px;
+    margin-right: 15px;    
+    box-sizing: border-box;
+    border: inset black 3px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.agregar{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: solid black 5px;
+    margin-bottom: 10px;
+}
+
+.precio{
+    font-size: 30px;
+    text-decoration: solid;
+}
+
+.boton{
+    text-align: center;
+    border: none;
+}
+
+.boton :hover{
+    color: green;
+}
+
+.envio{
+    width: 350px;
+    height: 400px;
+}
+
+.boxenvio{
+    margin-top: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+hr{
+    background-color: black;
+    color: black;
+    margin-top: 25px;
+}
+
+a:hover{    
+    color: white;
+    font-size: 17px;
+}
+
+.cuotas{
+    margin-top: 5px;
+    margin-bottom: -10px;
+    color: rgb(105, 104, 104);
+    font-size: 20px;
+}
+
+.a{
+    display: block;
+}
+
+.opinion{
+    height: 100vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datos{
+    border: none;
+    margin-left: 25px;
+}
+
+.logowpp{ 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    z-index: 1000; 
+}
+
+.logowpp img{ 
+    width: 70px;  
+    height: 70px; 
+}  
+
+.detalles{
+    font-size: 20px;
+}
+
+.formcont{
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    width: 300px ;
+}
+
+.pform{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pinform{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.h2form{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+
+.h2form2{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: -25px;
+}
+
+.tituloform{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+
+.boxcom{
+    margin-top: 50px;
+    margin-bottom: -5px;
+    width: 50%;
+    height: 250px ;
+}
+
+.divform{
+    text-align: left;
+    border: none;
+    margin-left: 25px;
+}
+
+.botform{
+    background-color: darkgreen;
+    border-radius: 5px;
+    border-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.acercade{
+    background-color: transparent;
+    height: 100vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.h2adn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.padn{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.afooter{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-size: 13px;
+    animation: forwards;
+}
+
+.alta{
+    height: 110vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxcoma{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: -5px;
+    width: 50%;
+    height: 250px ;
+}
+
+.botformim{
+    background-color: green;
+    border-radius: 5px;
+    border-color: green;
+    color: white;
+}
+
