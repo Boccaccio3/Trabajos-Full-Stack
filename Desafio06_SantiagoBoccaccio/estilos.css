@@ -18,10 +18,18 @@ legend{
     margin-left: 10px;
     margin-bottom: -100px;
     padding: 7px;
+    
 }
 
 h1{
     color: white;
+    border-top: solid 18px #4D6D63;
+    border-bottom: solid 18px #4D6D63;
+    border-left: solid 18px transparent;
+    border-right: solid 18px transparent;
+    width: 70%;
+    text-align: center;
+
 }
 
 .box1{
@@ -31,6 +39,7 @@ h1{
     text-align: center;
     border-radius: 5px;
     border: 2px solid #A6C1B9 ;
+    
 }
 
 .box2{
@@ -70,6 +79,9 @@ input{
     width: 70%;
     display: block;
     text-align: left;
+    display: flex;
+    border: solid 1px;
+    border-radius: 3px;
 }
 
 input:hover{
@@ -79,8 +91,9 @@ input:hover{
 .inputs{
     font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-bottom: 15px;
+
 }
 
 select{
@@ -165,4 +178,52 @@ label{
     display: inline;
     align-items: flex-start;
     margin-left: -34%;
+}
+
+.poppins {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 45px;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+.roboto2{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.poppins2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-right: 30px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 3px;
+    border: solid 1px  #A6C1B9;
+    background-color: #2B3D37;
+    color: #A6C1B9;
+    width: 20%;
+    text-align: inline;
+    font-size: 17px;
+}
+
+.botones :hover{
+    background-color: #4D6D63;
 }
