@@ -1,0 +1,168 @@
+body{
+    background-color: #1F2023;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend{
+    display: inline-block;
+    background-color: #4D6D63;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    border-radius: 10px;
+    top: -20px;
+    margin-left: 10px;
+    margin-bottom: -100px;
+    padding: 7px;
+}
+
+h1{
+    color: white;
+}
+
+.box1{
+    background-color: #D6E2DE;
+    width: 70vw;
+    height: 520px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #A6C1B9 ;
+}
+
+.box2{
+    padding-top: 10px;
+    background-color: #D6E2DE;
+    width: 70vw;
+    height: 180px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #A6C1B9 ;
+}
+
+.box3{
+    padding-top: 10px;
+    background-color: #D6E2DE;
+    width: 70vw;
+    height: 250px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px solid #A6C1B9;
+    margin-bottom: 15px;
+}
+.box1:hover{
+    background-color: #A6C1B9;
+}
+.box2:hover{
+    background-color: #A6C1B9;
+}
+.box3:hover{
+    background-color: #A6C1B9;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    text-align: left;
+}
+
+input:hover{
+    background-color: #4D6D63;
+}
+
+.inputs{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+select{
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+    display: block;
+    text-align: center;
+}
+
+textarea{
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+    height: 100px;
+    display: block;
+    text-align: center;
+}
+
+.radios{
+    display: flex;
+    justify-content: center;
+}
+
+.inputytext{
+    display: inline-flex;
+    align-items: center;
+}
+
+.inputytext input{
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+
+hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px dotted #A6C1B9;
+    width: 44%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+label{
+    text-align: center;
+}
+
+.textoafuera {
+    color: white;
+}
+
+.novedades,.acepto {
+    color: white; 
+    text-align: left;
+    margin-left: -34%;
+}
+
+.depytext{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.depytext label{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.actividades{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.inend{
+    text-align: left;
+    display: inline;
+    align-items: flex-start;
+    margin-left: -34%;
+}

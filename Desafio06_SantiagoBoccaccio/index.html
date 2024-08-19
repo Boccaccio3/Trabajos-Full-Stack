@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Afiliación</title>
+</head>
+<body>
+    <h1>Vení al Gym! &#x1F4AA;&#x1F3FC;</h1>
+    <form class="fdp">
+        <fieldset class="box1">
+        <legend>&#x1F64B;&#x1F3FC;&#x200D;&#x2642; Datos Personales &#x1F440;</legend>
+
+        <div class="inputs">
+        <label class="nombre"> Nombre:* </label>
+        <input type="text" id="nombre" required>
+        </div>
+        
+        <div class="inputs">
+        <label for="apellido"> Apellido:* </label>
+        <input type="text" id="apellido" required>
+        </div>
+
+        <div class="inputs">
+        <label for="documento"> Documento:* </label>
+        <input type="text" id="documento"  pattern="\d{8}" required>
+        </div>
+
+        <div class="inputs">
+        <label for="nacionalidades"> Nacionalidad:*</label>
+        <select name="nacionalidades" id="nacionalidades" required>
+        <option value="">- Seleccionar -</option> <option value="AR">Argentina</option>
+        <option value="BO">Bolivia</option>
+        <option value="BR">Brasil</option>
+        <option value="CL">Chile</option>
+        <option value="CO">Colombia</option>
+        <option value="CR">Costa Rica</option>
+        <option value="CU">Cuba</option>
+        <option value="DO">República Dominicana</option>
+        <option value="EC">Ecuador</option>
+        <option value="SV">El Salvador</option>
+        <option value="GQ">Guinea Ecuatorial</option>
+        <option value="GT">Guatemala</option>
+        <option value="HN">Honduras</option>
+        <option value="MX">México</option>
+        <option value="NI">Nicaragua</option>
+        <option value="PA">Panamá</option>
+        <option value="PY">Paraguay</option>
+        <option value="PE">Perú</option>
+        <option value="PR">Puerto Rico</option>
+        <option value="ES">España</option>
+        <option value="US">Estados Unidos</option>
+        <option value="UY">Uruguay</option>
+        <option value="VE">Venezuela</option></select>
+        </div>
+
+        <div class="inputs">
+        <label for="contanos"> Contanos un poco de vos...</label>
+        <textarea name="contanos" cols="30" rows="0"></textarea>
+        </div>
+
+        <div class="inputs"><label for="sexo">Sexo:*</label></div>
+        <div class="radios">
+        <div class="inputytext">
+        <input type="radio" name="sexo" value="femenino"><label for="femenino">Femenino</label>
+        </div>
+        <div class="inputytext">
+        <input type="radio" name="sexo" value="masculino" required><label for="masculino">Masculino</label>
+        </div>
+        <div class="inputytext">
+        <input type="radio" name="sexo" value="otro"><label for="otro">Otro</label>
+        </div>
+        </div>
+        </fieldset>
+        <hr>
+
+        <fieldset class="box2">
+        <legend>&#x1F4F1; Datos de Contacto &#x2709;&#xFE0F;</legend>
+        <div class="inputs">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" pattern="\d{10}" id="telefono" placeholder="Código de área y número">
+        </div>
+
+        <div class="inputs">
+        <label for="telefono">Dirección de correo electrónico:*</label>
+        <input type="mail" id="mail" placeholder="Ej: mail@gmail.com" required>
+        </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset class="box3">
+        <legend>&#x1F6B4; Actividades &#x1F938;&#x200D;&#x2642;</legend>
+        <div class="actividades">
+        <p>Por favor, indicá cuáles actividades te interesan.</p>
+        <p>Sede Palermo:</p>
+        <div class="depytext">
+        <input type='checkbox' name='basquet' value='basquet'><label for="deporte">Básquet</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='boxeo' value='boxeo'><label for="deporte">Boxeo</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='futbol' value='futbol'><label for="deporte">Fútbol</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='tenis' value='tenis'><label for="deporte">Tenis</label>
+        </div>
+        
+        <p>Sede Rosario:</p>
+        <div class="depytext">
+        <input type='checkbox' name='basquet' value='basquet'><label for="deporte">Básquet</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='futbol' value='futbol'><label for="deporte">Fútbol</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='rugby' value='rugby'><label for="deporte">Rugby</label>
+        </div>
+        <div class="depytext">
+        <input type='checkbox' name='voley' value='voley'><label for="deporte">Voley</label>
+        </div>
+        </fieldset>
+
+        <div class="outend">
+        <input class="inend" type='checkbox' name='condiciones' value='acepto las condiciones' required>
+        <label class="acepto" for="condiciones">Acepto las condiciones* </label><br>
+        <input class="inend" type='checkbox' name='novedades' value='novedades'>
+        <label class="novedades" for="novedades">Deseo recibir novedades</label>
+        </div>
+        <p class="textoafuera">*: campo obligatorio</p>
+        <button>Iniciar afiliación</button>
+        <button type="reset">Restablecer</button>
+
+    </form>
+</body>
+</html>
