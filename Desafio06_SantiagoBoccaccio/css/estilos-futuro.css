@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./assets/imagenes/izquierdo.jpeg), url(./assets/imagenes/derecho.jpeg);
+    background-image: url(../assets/imagenes/izquierdo.jpeg), url(../assets/imagenes/derecho.jpeg);
     background-size: 50%, 50%;
     background-attachment: fixed;
 }
@@ -75,7 +75,7 @@ h1{
     background-color: transparent;
     border: 2px solid #0160A2;
     box-shadow: 0 0 50px rgba(12, 223, 255, 0.5);
-    background-image: url(./assets/imagenes/fondos.jpeg);
+    background-image: url(../assets/imagenes/fondos.jpeg);
     background-size: contain;
     backdrop-filter: blur(0px);
 }
@@ -84,7 +84,7 @@ h1{
     background-color: transparent;
     border: 2px solid #0160A2;
     box-shadow: 0 0 80px rgba(12, 223, 255, 0,8);
-    background-image: url(./assets/imagenes/fondos.jpeg);
+    background-image: url(../assets/imagenes/fondos.jpeg);
     background-size: contain;
     backdrop-filter: blur(0px);
 }
@@ -93,7 +93,7 @@ h1{
     background-color: transparent;
     border: 2px solid #0160A2;
     box-shadow: 0 0 50px rgba(12, 223, 255, 0.5);
-    background-image: url(./assets/imagenes/);
+    background-image: url(../assets/imagenes/fondos.jpeg);
     background-size: contain;
     backdrop-filter: blur(0px);
 }
@@ -272,7 +272,7 @@ button{
     background-color: transparent;
     border: 2px solid #0160A2;
     box-shadow: 0 0 50px rgba(12, 223, 255, 0.5);
-    background-image: url(fondos.jpeg);
+    background-image: url(../assets/imagenes/fondos.jpeg);
     background-size: 50%;
     backdrop-filter: blur(0px);
     box-shadow: 0 0 40px rgba(246, 6, 182, 0.7);
