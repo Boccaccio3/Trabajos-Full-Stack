@@ -209,6 +209,7 @@ font-style: normal;
 .botones{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 button{

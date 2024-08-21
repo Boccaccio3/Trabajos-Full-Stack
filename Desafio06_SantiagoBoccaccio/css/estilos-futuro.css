@@ -250,6 +250,7 @@ font-style: normal;
 .botones{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 button{
@@ -278,3 +279,4 @@ button{
     box-shadow: 0 0 40px rgba(246, 6, 182, 0.7);
     background-color: #4D6D63;
 }
+

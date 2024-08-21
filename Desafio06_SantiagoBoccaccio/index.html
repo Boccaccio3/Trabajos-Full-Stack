@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos-futuro.css">
+<!--     <link rel="stylesheet" href="./css/estilos-futuro.css"> -->
+<!-- <link rel="stylesheet" href="./css/estilos-retro.css"> -->
+    <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&family=Bungee+Outline&family=Lato&family=Lilita+One&family=Mouse+Memoirs&family=Oswald:wght@200..700&family=Play:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rubik+Glitch+Pop&family=Rubik:ital,wght@0,300..900;1,300..900&family=Silkscreen:wght@700&family=Timmana&family=Yantramanav:wght@900&display=swap" rel="stylesheet">
@@ -17,7 +19,7 @@
 </head>
 <body>
     <h1 class="poppins">Vení al Gym! &#x1F4AA;&#x1F3FC;</h1>
-    <form class="fdp">
+    <form class="fdp" id="formulario">
         <fieldset class="box1">
         <legend class="roboto">&#x1F64B;&#x1F3FC;&#x200D;&#x2642; Datos Personales &#x1F440;</legend>
 
@@ -141,11 +143,17 @@
         <p class="textoafuera"><strong>*: campo obligatorio</strong></p>
 
         <div class="botones">
-        <button class="roboto2">Iniciar afiliación</button>
-        <button class="roboto2" type="reset">Restablecer</button>
+        <button class="roboto2" onclick="iniciar()">Saludar</button>
+        <button class="roboto2" onclick="suscripcion()">News Letter</button>
+        </div>
 
+        <div class="botones">
+        <button class="roboto2" type="submit">Iniciar afiliación</button>
+        <button class="roboto2" type="reset">Restablecer</button><br>
         </div>
 
     </form>
+    <script src="./js/index.js"></script>
+
 </body>
 </html>
