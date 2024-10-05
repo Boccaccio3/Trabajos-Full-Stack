@@ -1,0 +1,101 @@
+.producto{
+    height: 250px;
+    width: 250px;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.presentacion{
+    font-size: 17px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.producto:hover .oculto{
+    visibility: visible;
+}
+
+.bebidas{
+    margin-top: 140px;
+}
+
+.nombreh{
+    font-size: 19px;
+    margin-bottom: -15px;
+}
+
+.nombreb{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 19px;
+    margin-bottom:-3px;
+}
+
+.desch{
+    margin-top: -5px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.mas{
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+.menos{
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+.inpfor{
+    width: 250px;
+}
+
+.bds{
+    width: 250px;
+    text-align: left;
+}
+
+.logouser{
+    margin-left: 10px;
+}
+
+.footer{
+    margin-top: 300px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#enviarpedido{
+    margin-top: 550px;
+    margin-left: 110px;
+    position: fixed;
+    bottom: 20px;  
+    left: 20px;
+    font-size: 18px;
+}
+
+#carrito{
+    margin-top: 3px;
+    height: 50px;
+    border: 2px solid;
+    border-color: white;
+}
+
+.vacio{
+    height: 50px;
+}
