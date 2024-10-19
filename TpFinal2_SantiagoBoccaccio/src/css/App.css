@@ -1,0 +1,452 @@
+body{
+  background-color: #a9cce3;
+}
+
+.barra{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.ulbarra{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-content: space-between;
+}
+
+.abarra{
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  text-decoration: none;
+  margin-right: 55px;
+}
+
+li a:hover{
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+
+img{
+  margin-top: 0px;
+  width: 350px;
+  height: 300px;
+}
+
+.contenvio{
+  background-color: white;
+  width: 325px;
+  margin-top: 25px;  
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
+  border-radius: 5px 10px 5px 10px;
+  border-width: 3px;
+  border-style: solid; 
+  border-color: white; 
+}
+
+.contenvio:hover{
+  color: white;
+  background-color: #80b5d8;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border-color: white; 
+}
+
+.cont{
+  background-color: #a9cce3;
+  width: 325px;
+  margin-top: 25px;  
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
+  border-radius: 5px 10px 5px 10px;
+  border-width: 3px;
+  border-style: solid; 
+  border-color: rgb(225, 225, 225); 
+}
+
+.cont:hover{
+  color: white;
+  background-color: #80b5d8;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border-color: white; 
+}
+
+main{
+  margin-left: auto;
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+p{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.agregar{
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  border: solid white 1px;
+  padding: 2px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.finalizar{
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  border: solid black 1px;
+  padding: 1px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 20%;
+  font-size: 16px;
+}
+
+.cancelar{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: solid black 1px;
+  padding: 1px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.precio{
+  font-size: 30px;
+  text-decoration: solid;
+}
+
+.boton{
+  text-align: center;
+  border: none;
+}
+
+.boton :hover{
+  color: black;
+}
+
+.envio{
+  width: 400px;
+  height: 450px;
+}
+
+.boxenvio{
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  margin-left: 15px;
+}
+
+
+hr{
+  background-color: black;
+  color: black;
+  margin-top: 25px;
+}
+
+/* p.footer:hover{    
+  color: white;
+  font-size: 15px;
+} */
+
+.cuotas{
+  margin-top: -5px;
+  margin-bottom: 0px;
+  color: rgb(105, 104, 104);
+  font-size: 15px;
+}
+
+.p{
+  display: block;
+}
+
+.opinion{
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.datos{
+  border: none;
+  margin-left: 25px;
+}
+
+.logowpp{ 
+  position: fixed; 
+  bottom: 20px;
+  right: 20px; 
+  z-index: 1000; 
+}
+
+.logowpp img{ 
+  width: 70px;  
+  height: 70px; 
+}  
+
+.detalles{
+  font-size: 20px;
+}
+
+.detalle{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.formcont{
+  height: 30px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  width: 325px ;
+}
+
+.pform{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: -20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.pinform{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+.tituloform{
+  font-size: 50px;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: -5px;
+}
+
+.boxcom{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 250px ;
+}
+
+.divform{
+  text-align: left;
+  border: none;
+  margin-left: 25px;
+}
+
+.botform{
+  background-color: darkgreen;
+  border-radius: 5px;
+  border-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.acercade{
+  background-color: transparent;
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.h2adn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.padn{
+  margin-left: 10PX;
+  margin-right: 10px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+.afooter{
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  font-size: 13px;
+  animation: forwards;
+}
+
+.alta{
+  height: 110vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxcoma{
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-bottom: -5px;
+  width: 50%;
+  height: 250px ;
+}
+
+.botformim{
+  background-color: green;
+  border-radius: 5px;
+  border-color: green;
+  color: white;
+}
+
+.itembarra{
+  font-size: 25px;
+}
+
+.mapa{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psucursales{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.h2error{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.error{
+  width: 700px;
+  height: 700px;
+}
+
+.diverror{
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1{
+  font-size: 65px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+h2{
+  margin-top: 0px;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+.h2general{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.h2alta{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.h2form{
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: -20px;
+  text-align: left;
+}
+
+.labelalta{
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.selim{
+  display: block;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+
+.inputalta{
+  width: 300px;
+}
+
+.alta{
+  margin-left: 50px;
+}
+
+.botalta{
+  background-color: darkgreen;
+  border-radius: 5px;
+  border-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.campos{
+  margin-top: -290px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.campos2{
+  margin-top: -50px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#carrito{
+  margin-top: 8px;
+  margin-right: -50px;
+  height: 40px;
+}
+
+.boxcarrito{
+  background-color: grey;
+  width: 95vw;
+  height: 60vh;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
+.producto{
+  font-size: 20px;
+  text-align: left;
+}
