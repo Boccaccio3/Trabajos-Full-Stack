@@ -1,0 +1,68 @@
+<h1 class="mt-3 text-center fw-bold">Página de Contacto</h1>
+
+    <section class="bg-dark mx-auto w-50 text-light text-center rounded">
+    <form class="fdp mt-5 ms-5"><br>
+        <h2 class="mb-3"> Datos Personales &#128221;</h2>
+        <hr class="w-50 mx-auto text-light">
+
+        <div>
+        <label class="nombre fs-4"> Nombre:* </label><br>
+        <input class="mt-2 mb-3 w-25 rounded" type="text" id="nombre" required>
+        </div>
+        
+        <div>
+        <label class="fs-4" for="apellido"> Apellido:* </label><br> 
+        <input class="mt-2 mb-3 w-25 rounded" type="text" id="apellido" required>
+        </div>
+
+        <div>
+        <label class="fs-4" for="documento"> Documento:* </label><br>
+        <input class="mt-2 mb-3 w-25 rounded" type="text" id="documento"  pattern="\d{8}" required>
+        </div>
+
+        <div>
+        <label class="fs-4" for="nacionalidades"> Nacionalidad:*</label><br>
+        <select class="mt-2 mb-3 w-25 rounded" name="nacionalidades" id="nacionalidades" required>
+        <option value="">- Seleccionar -</option> <option value="AR">Argentina</option>
+        <option value="BO">Bolivia</option>
+        <option value="BR">Brasil</option>
+        <option value="CL">Chile</option>
+        <option value="CO">Colombia</option>
+        <option value="CR">Costa Rica</option>
+        <option value="CU">Cuba</option>
+        <option value="DO">República Dominicana</option>
+        <option value="EC">Ecuador</option>
+        <option value="SV">El Salvador</option>
+        <option value="GQ">Guinea Ecuatorial</option>
+        <option value="GT">Guatemala</option>
+        <option value="HN">Honduras</option>
+        <option value="MX">México</option>
+        <option value="NI">Nicaragua</option>
+        <option value="PA">Panamá</option>
+        <option value="PY">Paraguay</option>
+        <option value="PE">Perú</option>
+        <option value="PR">Puerto Rico</option>
+        <option value="ES">España</option>
+        <option value="US">Estados Unidos</option>
+        <option value="UY">Uruguay</option>
+        <option value="VE">Venezuela</option></select>
+        </div>
+
+
+    <label class="mb-3 fs-4" for="sexo">Sexo:*</label><br>
+    <div class="d-flex flex-row justify-content-center">
+    <input class="mx-3" type="radio" name="sexo" value="femenino" id="femenino">
+    <label for="femenino">Femenino</label>
+
+    <input class="mx-3" type="radio" name="sexo" value="masculino" id="masculino" required>
+    <label for="masculino">Masculino</label>
+
+    <input class="mx-3" type="radio" name="sexo" value="otro" id="otro">
+    <label for="otro">Otro</label>
+    </div>
+
+        <button type="sumbit" class="mt-3 mb-5 btn btn-success">Enviar</button>
+
+        </form>
+        </section>
+        <br><br><br><br><br><br>
